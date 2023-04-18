@@ -1,0 +1,19 @@
+{
+  "name": "coding-mr",
+  "description": "Use the command line to create a merge request on Coding.",
+  "bin": {
+    "cmr": "cmr"
+  },
+  "author": "peng.j.1995@gmail.com",
+  "homepage": "https://github.com/penjj/coding-mr",
+  "repository": "https://github.com/penjj/coding-mr",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "coding",
+    "merge request"
+  ],
+  "files": [
+    "cmr"
+  ]
+}
