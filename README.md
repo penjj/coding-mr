@@ -4,10 +4,13 @@ Coding Merge Request
 
 Install
 ```bash
-# unix/linux
+# for frontend developer
+npm install coding-mr -g
+
+# for unix/linux
 curl -sSL https://raw.githubusercontent.com/penjj/coding-mr/master/install.sh | bash
 
-# windows powershell
+# for windows powershell (untested)
 Enable-PSRemoting -Force
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/penjj/coding-mr/master/install.ps1" -OutFile "%UserProfile%\install-cmr.ps1"
 powershell.exe -ExecutionPolicy Bypass -File "%UserProfile%\install-cmr.ps1"
